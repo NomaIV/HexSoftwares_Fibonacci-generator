@@ -10,8 +10,12 @@ def Fibonacci(n):
         return 1
     else:
         return Fibonacci(n-1) + Fibonacci(n-2)
+    
+# Ask user for input
+n = int(input("Enter a position in the Fibonacci sequence: "))
+
 # Test the function    
-print(Fibonacci(11))
+print(Fibonacci(n))
 
 
 
